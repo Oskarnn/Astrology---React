@@ -60,6 +60,7 @@ body {
   background-color: black;
   border-radius: 6px;
   box-shadow: 9px 19px 32px 14px rgba(12, 12, 12, 1);
+  min-width: 800px;
 
 
 }
@@ -111,6 +112,46 @@ p {
   .funcLink {
     visibility: hidden;
   }
+}
+
+
+/* HOROSCOPE-COMPONENT-SETTINGS */
+
+
+.horoSection {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr ;
+  gap: 4vh;
+  margin: 5vh auto 0 auto;
+}
+
+.horoList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+  
+
+
+}
+
+.horoList > button {
+  
+  background: none;
+	color: white;
+	border: none;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+
+
+}
+.horoList  > img {
+  margin-bottom: 3vh;
+  min-width: 150px;
+  max-width: 180px;
 }
 
 

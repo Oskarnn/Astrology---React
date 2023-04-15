@@ -1,76 +1,79 @@
-[
+{
+  "data": [
+
     { "id": 1,
     "sign": "Aries",
-    "pic": "./public/files/Aries.png",
-    "stars": "./public/files/Virgo-stars.png",
+    "pic": "files/Aries.png",
+    "stars": "files/Virgo-stars.png",
     "info": "  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa praesentium nulla officia delectus! Culpa eligendi, fugiat atque sed, aliquid expedita, eius dolore doloribus exercitationem nihil cumque ea perferendis quasi. Commodi ut impedit ab porro est veniam a necessitatibus illum eligendi quisquam repellat minus, quas voluptatibus molestiae perferendis delectus fuga earum assumenda temporibus aliquam praesentium blanditiis officia dolore doloremque. Eum, vitae. Dolor magni voluptates deserunt in fuga quisquam numquam consequatur quo quaerat. Voluptatibus repellendus modi culpa. Mollitia in voluptatum dignissimos dolorem?"
 },
     { "id": 2,
     "sign": "Taurus",
-    "pic": "./public/files/Taurus.png",
-    "stars": "./public/files/Virgo-stars.png",
+    "pic": "files/Taurus.png",
+    "stars": "files/Virgo-stars.png",
     "info": "  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa praesentium nulla officia delectus! Culpa eligendi, fugiat atque sed, aliquid expedita, eius dolore doloribus exercitationem nihil cumque ea perferendis quasi. Commodi ut impedit ab porro est veniam a necessitatibus illum eligendi quisquam repellat minus, quas voluptatibus molestiae perferendis delectus fuga earum assumenda temporibus aliquam praesentium blanditiis officia dolore doloremque. Eum, vitae. Dolor magni voluptates deserunt in fuga quisquam numquam consequatur quo quaerat. Voluptatibus repellendus modi culpa. Mollitia in voluptatum dignissimos dolorem?"
 },
     { "id": 3,
     "sign": "Gemeni",
-    "pic": "./public/files/Gemeni.png",
-    "stars": "./public/files/Virgo-stars.png",
+    "pic": "files/Gemeni.png",
+    "stars": "files/Virgo-stars.png",
     "info": "  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa praesentium nulla officia delectus! Culpa eligendi, fugiat atque sed, aliquid expedita, eius dolore doloribus exercitationem nihil cumque ea perferendis quasi. Commodi ut impedit ab porro est veniam a necessitatibus illum eligendi quisquam repellat minus, quas voluptatibus molestiae perferendis delectus fuga earum assumenda temporibus aliquam praesentium blanditiis officia dolore doloremque. Eum, vitae. Dolor magni voluptates deserunt in fuga quisquam numquam consequatur quo quaerat. Voluptatibus repellendus modi culpa. Mollitia in voluptatum dignissimos dolorem?"
 },
     { "id": 4,
     "sign": "Cancer",
-    "pic": "./public/files/Cancer.png",
-    "stars": "./public/files/Virgo-stars.png",
+    "pic": "files/Cancer.png",
+    "stars": "files/Virgo-stars.png",
     "info": "  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa praesentium nulla officia delectus! Culpa eligendi, fugiat atque sed, aliquid expedita, eius dolore doloribus exercitationem nihil cumque ea perferendis quasi. Commodi ut impedit ab porro est veniam a necessitatibus illum eligendi quisquam repellat minus, quas voluptatibus molestiae perferendis delectus fuga earum assumenda temporibus aliquam praesentium blanditiis officia dolore doloremque. Eum, vitae. Dolor magni voluptates deserunt in fuga quisquam numquam consequatur quo quaerat. Voluptatibus repellendus modi culpa. Mollitia in voluptatum dignissimos dolorem?"
 },
     { "id": 5,
     "sign": "Leo",
-    "pic": "./public/files/Leo.png",
-    "stars": "./public/files/Virgo-stars.png",
+    "pic": "files/Leo.png",
+    "stars": "files/Virgo-stars.png",
     "info": "  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa praesentium nulla officia delectus! Culpa eligendi, fugiat atque sed, aliquid expedita, eius dolore doloribus exercitationem nihil cumque ea perferendis quasi. Commodi ut impedit ab porro est veniam a necessitatibus illum eligendi quisquam repellat minus, quas voluptatibus molestiae perferendis delectus fuga earum assumenda temporibus aliquam praesentium blanditiis officia dolore doloremque. Eum, vitae. Dolor magni voluptates deserunt in fuga quisquam numquam consequatur quo quaerat. Voluptatibus repellendus modi culpa. Mollitia in voluptatum dignissimos dolorem?"
 },
     { "id": 6,
     "sign": "Virgo",
-    "pic": "./public/files/Virgo.png",
-    "stars": "./public/files/Virgo-stars.png",
+    "pic": "files/Virgo.png",
+    "stars": "files/Virgo-stars.png",
     "info": "  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa praesentium nulla officia delectus! Culpa eligendi, fugiat atque sed, aliquid expedita, eius dolore doloribus exercitationem nihil cumque ea perferendis quasi. Commodi ut impedit ab porro est veniam a necessitatibus illum eligendi quisquam repellat minus, quas voluptatibus molestiae perferendis delectus fuga earum assumenda temporibus aliquam praesentium blanditiis officia dolore doloremque. Eum, vitae. Dolor magni voluptates deserunt in fuga quisquam numquam consequatur quo quaerat. Voluptatibus repellendus modi culpa. Mollitia in voluptatum dignissimos dolorem?"
 },
     { "id": 7,
     "sign": "Libra",
-    "pic": "./public/files/Libra.png",
-    "stars": "./public/files/Virgo-stars.png",
+    "pic": "files/Libra.png",
+    "stars": "files/Virgo-stars.png",
     "info": "  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa praesentium nulla officia delectus! Culpa eligendi, fugiat atque sed, aliquid expedita, eius dolore doloribus exercitationem nihil cumque ea perferendis quasi. Commodi ut impedit ab porro est veniam a necessitatibus illum eligendi quisquam repellat minus, quas voluptatibus molestiae perferendis delectus fuga earum assumenda temporibus aliquam praesentium blanditiis officia dolore doloremque. Eum, vitae. Dolor magni voluptates deserunt in fuga quisquam numquam consequatur quo quaerat. Voluptatibus repellendus modi culpa. Mollitia in voluptatum dignissimos dolorem?"
 },
     { "id": 8,
     "sign": "Scorpio",
-    "pic": "./public/files/Scorpio.png",
-    "stars": "./public/files/Virgo-stars.png",
+    "pic": "files/Scorpio.png",
+    "stars": "files/Virgo-stars.png",
     "info": "  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa praesentium nulla officia delectus! Culpa eligendi, fugiat atque sed, aliquid expedita, eius dolore doloribus exercitationem nihil cumque ea perferendis quasi. Commodi ut impedit ab porro est veniam a necessitatibus illum eligendi quisquam repellat minus, quas voluptatibus molestiae perferendis delectus fuga earum assumenda temporibus aliquam praesentium blanditiis officia dolore doloremque. Eum, vitae. Dolor magni voluptates deserunt in fuga quisquam numquam consequatur quo quaerat. Voluptatibus repellendus modi culpa. Mollitia in voluptatum dignissimos dolorem?"
 },
     { "id": 9,
     "sign": "Sagittarius",
-    "pic": "./public/files/Sagittarius.png",
-    "stars": "./public/files/Virgo-stars.png",
+    "pic": "files/Sagittarius.png",
+    "stars": "files/Virgo-stars.png",
     "info": "  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa praesentium nulla officia delectus! Culpa eligendi, fugiat atque sed, aliquid expedita, eius dolore doloribus exercitationem nihil cumque ea perferendis quasi. Commodi ut impedit ab porro est veniam a necessitatibus illum eligendi quisquam repellat minus, quas voluptatibus molestiae perferendis delectus fuga earum assumenda temporibus aliquam praesentium blanditiis officia dolore doloremque. Eum, vitae. Dolor magni voluptates deserunt in fuga quisquam numquam consequatur quo quaerat. Voluptatibus repellendus modi culpa. Mollitia in voluptatum dignissimos dolorem?"
 },
     { "id": 10,
     "sign": "Capricorn",
-    "pic": "./public/files/Capricorn.png",
-    "stars": "./public/files/Virgo-stars.png",
+    "pic": "files/Capricorn.png",
+    "stars": "files/Virgo-stars.png",
     "info": "  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa praesentium nulla officia delectus! Culpa eligendi, fugiat atque sed, aliquid expedita, eius dolore doloribus exercitationem nihil cumque ea perferendis quasi. Commodi ut impedit ab porro est veniam a necessitatibus illum eligendi quisquam repellat minus, quas voluptatibus molestiae perferendis delectus fuga earum assumenda temporibus aliquam praesentium blanditiis officia dolore doloremque. Eum, vitae. Dolor magni voluptates deserunt in fuga quisquam numquam consequatur quo quaerat. Voluptatibus repellendus modi culpa. Mollitia in voluptatum dignissimos dolorem?"
 },
     { "id": 11,
     "sign": "Aquarius",
-    "pic": "./public/files/Aquarius.png",
-    "stars": "./public/files/Virgo-stars.png",
+    "pic": "files/Aquarius.png",
+    "stars": "files/Virgo-stars.png",
     "info": "  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa praesentium nulla officia delectus! Culpa eligendi, fugiat atque sed, aliquid expedita, eius dolore doloribus exercitationem nihil cumque ea perferendis quasi. Commodi ut impedit ab porro est veniam a necessitatibus illum eligendi quisquam repellat minus, quas voluptatibus molestiae perferendis delectus fuga earum assumenda temporibus aliquam praesentium blanditiis officia dolore doloremque. Eum, vitae. Dolor magni voluptates deserunt in fuga quisquam numquam consequatur quo quaerat. Voluptatibus repellendus modi culpa. Mollitia in voluptatum dignissimos dolorem?"
 },
     { "id": 12,
     "sign": "Pisces",
-    "pic": "./public/files/Pisces.png",
-    "stars": "./public/files/Virgo-stars.png",
+    "pic": "files/Pisces.png",
+    "stars": "files/Virgo-stars.png",
     "info": "  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa praesentium nulla officia delectus! Culpa eligendi, fugiat atque sed, aliquid expedita, eius dolore doloribus exercitationem nihil cumque ea perferendis quasi. Commodi ut impedit ab porro est veniam a necessitatibus illum eligendi quisquam repellat minus, quas voluptatibus molestiae perferendis delectus fuga earum assumenda temporibus aliquam praesentium blanditiis officia dolore doloremque. Eum, vitae. Dolor magni voluptates deserunt in fuga quisquam numquam consequatur quo quaerat. Voluptatibus repellendus modi culpa. Mollitia in voluptatum dignissimos dolorem?"
 }
 
-
 ]
+
+}
