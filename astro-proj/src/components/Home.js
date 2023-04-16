@@ -14,7 +14,7 @@ const Home = () => {
 
                 </div>
 
-                <div className="funcLink"><a href="none">GET YOUR HOROSCOPE</a></div>
+                <div className="funcLink"><a href="/horoscope">GET YOUR HOROSCOPE</a></div>
             </div>
         </div>
         </div>

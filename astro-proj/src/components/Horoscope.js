@@ -1,12 +1,22 @@
 import Navbar from "./Navbar";
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useContext } from 'react';
 import React from "react";
 import axios from 'axios';
+import { BiArrowBack } from "react-icons/bi";
 
-// useEffect
-const Horoscope = () => {
+
+
+const Horoscope = (props) => {
 
     const [signs, setSigns] = useState([]);
+    const [toggle, setToggle] = useState(true)
+    const [info, setInfo] = useState(null)
+
+
+    // const {signName, setSignName} = createContext(null)
+
+    
+    
 
    useEffect(() => {
     fetch()
@@ -18,30 +28,83 @@ function fetch() {
     axios.get('http://localhost:8000/data')
     .then(response => {
         setSigns(response.data)
-        console.log(signs[1].pic)
+        
     })
    }
 
-   let toggle = false;
+
+function clickHandler(sign, index) {
+
+    setInfo(sign);
+
+   if(toggle === true) {
+
+
+    // setSignName(index)
+
+
+    props.newSignValue(index)
+    setToggle(false)
+    
+   }
+   else {
+    setToggle(true)
+   }
+
+    
+} 
+
 
     return (
         <div className="contentBox">
             <Navbar/>
-            <div className="horoSection">
+            { toggle ?
+            <>
+            <h2>CHOOSE YOUR ZODIAC SIGN</h2>
+                
+                <div className="horoSection">
+                        
+                        { signs.map((sign, index) => (
+                            <div className="horoList" key={sign.id}>
+    
+                                
+                                <img src={ sign.pic } alt={sign.sign} />
+                                <button onClick={ () => clickHandler(sign, index) }> { sign.sign }</button>
+                                
+                            </div>
 
-                    { signs.map((sign) => (
-                        <div className="horoList" key={sign.id}>
-                            
-                            <img src={ sign.pic } alt={sign.sign} />
-                            <button onClick={ () => toggle = true }> { sign.sign }</button>
+                            )) }
+
+
+                </div>
+            </>
+                :
+                <div className="contentBox">
+                    <BiArrowBack size={30} className="arrowIcon" onClick={clickHandler}/>
+                    <div className="infoSection">
+                        <div className="flexDiv">
+                            <img className="infoPic" src={info.pic} alt="" />
                         </div>
 
-                        )) }
+                    <div className="flexDivContent">
+                        <div className="flexStarsign">
 
-
-            </div>
+                            <img className="infoStarpic" src={info.stars} alt="Star sign"/>
+                            <h4>{info.sign.toUpperCase()}</h4>
+                        </div>
+                        <p>{ info.info }</p>
+                     </div>
+                     
+                    
+                    </div>
+                    
+                </div>
+            }
         </div>
      );
 }
 
 export default Horoscope;
+
+
+
